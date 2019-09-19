@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="fetchjson('q2')">
+	<div class="container" style="margin-top:24px;">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4>Question 2</h4><br><br>
+					<div id="demo2" style="font-size: 20px"></div>
+				</div>
+				<div class="panel-body">
+					<input type="radio" name="option" value="A">&nbsp;&nbsp;<b id="option1"></b><br><br>
+					<input type="radio" name="option" value="B">&nbsp;&nbsp;<b id="option2"></b><br><br>
+					<input type="radio" name="option" value="C">&nbsp;&nbsp;<b id="option3"></b><br><br>
+					<input type="radio" name="option" value="D">&nbsp;&nbsp;<b id="option4"></b><br><br>
+				</div>
+			</div>
+		    <ul class="pager">
+			    <li class="previous"><a href="question1.html">Previous</a></li>
+			    <li class="next"><a href="question3.html" onClick="Save('q2')" >Next</a></li>
+		    </ul>
+	</div>
+
+	<script type="text/javascript" src="assests/JS/fetch.js"></script>
+</body>
+</html>
